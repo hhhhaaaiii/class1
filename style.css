@@ -1,22 +1,36 @@
-body {background-color: rgb(195, 247, 247);}
-
-.profile{ font-family: fantasy;
-    font-size: 55px;
-    padding: 45px;
-    margin: -15px;
-    background-color: rgb(236, 234, 230);
-    text-align: center;
-    border-style: ridge;}
-p{ font-size: 50px;
+body {
+    background-color: thistle;
 }
-.bodytext{
-color: rgb(19, 18, 18);
-    font-size: large;
-    
+* {
+    padding: 0px;
+    margin: 0px;
 }
-.heding1{ background-color: azure;
-    font-size: xx-large;
-    padding: 15px;
-    font-style: italic;
-    ;}
 
+.row{
+    display: flex;
+    flex-direction: row;
+    background-color: darkgoldenrod;
+}
+.logo{
+    height: 58px;
+    background-color: darkmagenta
+    ;
+}
+.box{
+    flex-grow: 1;
+    margin: 8px;
+    background-color: rgb(169, 252, 252);
+    height: 20px;
+}
+.content{
+    flex-grow: 1;
+    margin: 8px;
+    background-color: rgb(169, 252, 252);
+    height: 300px;}
+
+.contentbox{
+    flex-grow: 1;
+    margin: 8px;
+    background-color: rgb(169, 252, 252);
+    height: 200px;
+}
