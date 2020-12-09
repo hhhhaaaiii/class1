@@ -1,0 +1,17 @@
+body {background-color: rgb(195, 247, 247);}
+
+.profile{ font-family: fantasy;
+    font-size: 55px;
+    padding: 59px;
+    margin: -15px;
+    background-color: rgb(236, 234, 230);
+}
+p{
+
+    font-size: 50px;
+}
+.bodytext{
+color: rgb(19, 18, 18);
+    font-size: large;
+    
+}
