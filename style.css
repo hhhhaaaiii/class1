@@ -1,5 +1,5 @@
 body {
-    background-color: thistle;
+    background-color: rgb(252, 252, 252);
 }
 * {
     padding: 0px;
@@ -9,28 +9,59 @@ body {
 .row{
     display: flex;
     flex-direction: row;
-    background-color: darkgoldenrod;
+    background-color: rgb(255, 255, 255);
 }
-.logo{
-    height: 58px;
-    background-color: darkmagenta
-    ;
+.colum{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
 }
+
 .box{
     flex-grow: 1;
     margin: 8px;
-    background-color: rgb(169, 252, 252);
-    height: 20px;
+    background-color: rgb(214, 214, 214);
+    height: 37px;
 }
 .content{
-    flex-grow: 1;
+    flex-grow: 10;
     margin: 8px;
-    background-color: rgb(169, 252, 252);
-    height: 300px;}
+    background-color: rgb(219, 219, 219);
+    height: 800px;
+    text-align: justify
+    flex-direction: row;}
 
 .contentbox{
     flex-grow: 1;
     margin: 8px;
     background-color: rgb(169, 252, 252);
+    height: 120px;
+    ;
+}
+.menubox{
+    margin: 8px;
+    background-color: rgb(65, 83, 83);
+    height: 40px;
+    width: 202px;
+    flex-grow: 1;
+    border: groove;
+}
+.menuboxh{
+    margin: 8px;
+    backface-visibility: hidden;
+    height: 20px;
+    flex-grow: 1;
+    flex-direction: row;
+    
+}
+.bottombox{
+    flex-grow: 1;
+    margin: 8px;
     height: 200px;
+    text-align: center;
+    text-decoration-color: rgb(255, 255, 255);
+    text-shadow: ghostwhite;
+    text-decoration: ghostwhite;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,156,156,0.8242647400757178) 50%, rgba(0,0,0,1) 100%);
 }
