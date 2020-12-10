@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: row;
     background-color: rgb(255, 255, 255);
+    justify-content: space-between;
 }
 .colum{
     display: flex;
@@ -27,8 +28,7 @@ body {
     flex-grow: 10;
     margin: 8px;
     background-color: rgb(219, 219, 219);
-    height: 800px;
-    text-align: justify
+    height: 670px;
     flex-direction: row;}
 
 .contentbox{
@@ -65,3 +65,5 @@ body {
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,156,156,0.8242647400757178) 50%, rgba(0,0,0,1) 100%);
 }
+.photo{ height: 600px;
+    width: 206.6px;}
