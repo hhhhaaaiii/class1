@@ -23,6 +23,16 @@ body {
     margin: 8px;
     background-color: rgb(214, 214, 214);
     height: 37px;
+    padding: 10px;
+    text-align: center;
+    font-style: oblique;
+    border: thin;
+}
+.emptybox{
+    flex-grow: 1;
+    margin: 8px;
+    background-color: white;
+    height: 37px;
 }
 .content{
     flex-grow: 10;
@@ -32,15 +42,16 @@ body {
     flex-direction: row;}
 
 .contentbox{
-    flex-grow: 1;
     margin: 8px;
-    background-color: rgb(169, 252, 252);
+    padding: 10px;
+    background-color: rgb(201, 201, 201);
     height: 120px;
+    width: 309px
     ;
 }
 .menubox{
     margin: 8px;
-    background-color: rgb(65, 83, 83);
+    background-color: rgb(201, 201, 201);
     height: 40px;
     width: 202px;
     flex-grow: 1;
@@ -57,13 +68,16 @@ body {
 .bottombox{
     flex-grow: 1;
     margin: 8px;
-    height: 200px;
+    height: 150px;
     text-align: center;
+    padding: 20px;
     text-decoration-color: rgb(255, 255, 255);
     text-shadow: ghostwhite;
     text-decoration: ghostwhite;
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,156,156,0.8242647400757178) 50%, rgba(0,0,0,1) 100%);
 }
-.photo{ height: 600px;
-    width: 206.6px;}
+.fill{
+    height: 120px;
+    width: 15px;
+}
