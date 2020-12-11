@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(252, 252, 252);
+
+    background-image: url(img/sea3.jpg);
 }
 * {
     padding: 0px;
@@ -20,13 +21,15 @@ body {
 
 .box{
     flex-grow: 1;
+    background-image: url(img/sea4.jpg);
     margin: 8px;
     background-color: rgb(214, 214, 214);
     height: 37px;
     padding: 10px;
     text-align: center;
     font-style: oblique;
-    border: thin;
+    border: rgb(190, 191, 255);
+    border-style: double;
 }
 .emptybox{
     flex-grow: 1;
@@ -51,6 +54,7 @@ body {
 }
 .menubox{
     margin: 8px;
+    background-image: url(img/sea4.jpg);
     background-color: rgb(201, 201, 201);
     height: 40px;
     width: 202px;
@@ -75,8 +79,9 @@ body {
     text-shadow: ghostwhite;
     text-decoration: ghostwhite;
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,156,156,0.8242647400757178) 50%, rgba(0,0,0,1) 100%);
-}
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 8%, rgba(0,0,0,1) 58%, rgba(156,156,156,1) 100%);
 .fill{
     height: 120px;
     width: 15px;
