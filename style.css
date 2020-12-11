@@ -60,6 +60,7 @@ body {
     width: 202px;
     flex-grow: 1;
     border: groove;
+    text-align: center;
 }
 .menuboxh{
     margin: 8px;
